@@ -30,6 +30,6 @@ export class Saving extends Account{
 
 	applyInterest(){
 		const interest = this._balance * 0.03;
-		this.deposit(interest);
+		console.log("Hello World");
 	}
 }
