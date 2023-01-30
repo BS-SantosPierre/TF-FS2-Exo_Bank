@@ -1,5 +1,5 @@
-import { Account } from "./Account";
-import { Person } from "./Person";
+import { Account } from "./Account.js";
+import { Person } from "./Person.js";
 
 export class Saving extends Account{
 	// Attributs

@@ -1,4 +1,4 @@
-import { Account } from "./Account";
+import { Account } from "./Account.js";
 export class Saving extends Account {
     constructor(accountNumber, balance, dateLastDebit, owner) {
         super(accountNumber, balance, owner);

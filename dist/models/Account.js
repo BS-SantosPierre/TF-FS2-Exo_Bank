@@ -30,6 +30,6 @@ export class Account {
         }
         this._balance -= amount;
     }
-    applyInterest(interest) {
+    applyInterest() {
     }
 }

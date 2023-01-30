@@ -1,7 +1,7 @@
-import { Account } from "./Account";
-import { Current } from "./Current";
-import { Person } from "./Person";
-import { Saving } from "./Saving";
+import { Account } from "./Account.js";
+import { Current } from "./Current.js";
+import { Person } from "./Person.js";
+import { Saving } from "./Saving.js";
 
 export class Bank {
 	constructor(

@@ -1,4 +1,4 @@
-import { Person } from "./Person";
+import { Person } from "./Person.js";
 
 export class Account {
 	// Attributs
@@ -46,6 +46,6 @@ export class Account {
 		this._balance -= amount;
 	}
 
-	applyInterest(interest: number) {
+	applyInterest() {
 	}
 }
