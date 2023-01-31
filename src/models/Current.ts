@@ -49,6 +49,6 @@ export class Current extends Account{
 
 	applyInterest(){
 		const interest = (this._balance > 0) ? this._balance * 0.015 : this._balance * 0.04;
-		this.deposit(interest);
+		this._balance += interest;
 	}
 }

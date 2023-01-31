@@ -47,5 +47,6 @@ export class Account {
 	}
 
 	applyInterest() {
+		// Method implémenter dans les enfants
 	}
 }
